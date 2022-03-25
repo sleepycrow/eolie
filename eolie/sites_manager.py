@@ -317,6 +317,8 @@ class SitesManager(Gtk.Grid):
             @param listbox as Gtk.ListBox
             @param child as SitesManagerChild
         """
+        self.__window.close_popovers()
+
         webviews = child.webviews
         if len(webviews) == 1:
             self.__window.container.set_visible_webview(webviews[0])
