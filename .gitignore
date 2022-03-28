@@ -94,3 +94,5 @@ flatpak/metadata
 /flatpak/*.bundle
 /flatpak/*.flatpak
 /flatpak/.flatpak-builder
+/.flatpak-builder
+/build-dir

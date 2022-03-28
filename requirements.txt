@@ -5,7 +5,7 @@ PyFxA
 requests
 requests-hawk >= 1.1.0
 pycrypto
-cryptography
+cryptography < 3.4
 setuptools
 wheel
 six
